@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aa5531"
+    >
+<TextView
+        android:id="@+id/textView1"
+        android:textColor="#ffff00"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/bg1"
+        android:textSize="30sp"
+        android:text="伏地魔杀了我的父母，他不过是个杀人犯，没什么了不起。" />
+    <TextView
+        android:layout_below="@+id/textView1"
+          android:padding="30dip"
+         android:background="#000000"
+        android:textColor="#ff3232"
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+       
+        android:text="上面是哈利波特里面的一句话，扯淡吧！xia面，基本上又是瞎扯，我们来假设一下未来的人可以长寿好不好，那么他们会发生什么故事呢?"
+        android:textStyle="bold"
+        />
+   <TextView
+        android:textColor="#ffff00"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:textSize="40sp"
+        android:text="开始" />
+  
+</RelativeLayout>

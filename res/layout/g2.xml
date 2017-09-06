@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EE7621"
+    android:orientation="vertical"
+    >
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:background="#117621">
+    <ImageView
+        android:layout_width="fill_parent"
+       android:layout_height="0dip"
+        android:layout_weight="1"
+        android:src="@drawable/p1"
+        android:layout_centerHorizontal="true"
+ />
+    <TextView
+         android:padding="10dp"
+        android:textColor="#00FFff"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+       android:layout_weight="1"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="哇c，你的身子好漂亮，哪里买的？" />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:background="#45aa21">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+       android:layout_height="0dip"
+       android:layout_weight="1"
+        android:src="@drawable/p2"
+        android:layout_centerHorizontal="true"
+ />
+    <TextView
+         android:padding="10dp"
+        android:textColor="#55eeff"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+      android:layout_weight="1"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="哼，你个老不死的，我才3岁 。" />
+    </LinearLayout>
+   
+</LinearLayout>
